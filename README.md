@@ -25,3 +25,38 @@ main.tf
 ### EKS Cluster Registration with Nirmata
 Nirmata Environment
 Nginx Application
+
+Steps to Create the Cluster 
+
+```
+terraform init
+```
+```
+terraform plan -target nirmata_cluster_registered.eks-registered
+```
+```
+terraform apply -target nirmata_cluster_registered.eks-registered
+```
+
+Steps to Deploy Application 
+
+```
+terraform plan
+```
+```
+terraform apply
+```
+
+Steps to Delete Application
+```
+terraform destroy  -target nirmata_cluster_registered.eks-registered
+```
+
+
+Steps to Delete Both Application and 
+Cluster
+```
+terraform destroy
+```
+
+
