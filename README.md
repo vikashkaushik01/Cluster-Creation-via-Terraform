@@ -4,6 +4,11 @@
 AWS CLI should be Configure with AWS Credentials
 You should have Nirmata Profile Token
 
+Note:- Currently this module is supported to:-
+
+	1. OS:- CentOS, MacOS
+	2. Terraform Version:- v1.3.6
+
 ### Created eks cluster with addons and networking resources:
 VPC
 IG
